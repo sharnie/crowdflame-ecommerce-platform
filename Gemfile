@@ -10,10 +10,13 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'haml'
 gem 'puma'
+gem 'devise'
 
 group :development, :test do
   gem 'byebug'
   gem 'pry'
+  gem 'rspec-rails'
+  gem 'guard-rspec'
 end
 
 group :development do

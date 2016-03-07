@@ -11,6 +11,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'haml'
 gem 'puma'
 gem 'devise'
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
+gem 'haml-rails', '~> 0.9'
 
 group :development, :test do
   gem 'byebug'

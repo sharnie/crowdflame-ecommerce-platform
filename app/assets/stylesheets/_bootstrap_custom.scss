@@ -1,0 +1,71 @@
+@import "bootstrap";
+
+/*!
+ * Navbar
+ */
+.navbar-default {
+    background-color: transparent !important;
+    border: none;
+}
+
+.navbar-nav > li > a {
+    font-weight: 600;
+}
+
+.navbar-btn {
+    font-size: 12px;
+    padding: 6px 15px !important;
+}
+
+/*!
+ * Background Color
+ */
+.bg-primary {
+    color: #fff !important;
+    background-color: $primary !important;
+
+    &:hover, &:focus {
+        color: #fff;
+        opacity: 0.9;
+    }
+}
+
+.bg-success {
+    color: #fff !important;
+    background-color: $success !important;    
+}
+
+/*!
+ * Button
+ */
+.btn {
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: transparent;
+    outline: none !important;
+
+    &:hover, &:focus, &:focus {
+        border-color: transparent;
+        opacity: 0.9;
+    }
+}
+
+/*!
+ * Form Elements
+ */
+.form-control {
+    border-radius: 2px;
+    box-shadow: none;
+    border: none;
+    font-size: 12px;
+
+    &:hover, &:focus {
+        border-color: transparent;
+        box-shadow: none;
+    }
+}

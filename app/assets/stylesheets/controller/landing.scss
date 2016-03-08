@@ -68,6 +68,7 @@
  */
 .hero-secondary {
     padding: 0 15px 15px;
+    opacity: 0.9;
 }
 
 .hero-secondary__icon {
@@ -142,7 +143,7 @@
 }
 
 .footer__btn {
-    color: $info;
+    color: $info !important;
 }
 
 /*!

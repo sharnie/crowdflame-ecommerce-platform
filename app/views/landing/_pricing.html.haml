@@ -1,10 +1,10 @@
-%section#pricing.section.pricing.clear.p-b-lg
-  .wrapper
+%section#pricing.section.pricing
+  .wrapper.clear
     .text-center.text-white.m-b-lg
       .section__heading All new accounts enjoy a 14 day Premium trial.
       .section__lead Two simple options: Basic or Premium. And you can upgrade and downgrade as you wish.
 
-    .col-sm-offset-2.col-sm-8
+    .col-sm-offset-1.col-sm-10
       .col-sm-6
         .pricing__box.text-center.text-white
 
@@ -15,9 +15,12 @@
 
           .pricing__box__body
             .block 5 products
+            .block -
+            .block -
+            .block Search engine optimized
 
           .pricing__box__footer
-            %a.footer__btn.btn.btn-default.font-w-7.text-upper{:href => "#"} Free sign up
+            %a.btn.btn-default.footer__btn.font-w-7.text-upper{:href => "#"} Free sign up
 
       .col-sm-6
         .pricing__box.text-center.text-white
@@ -29,6 +32,11 @@
 
           .pricing__box__body
             .block 50+ products
+            .block Real-time dashboard
+            .block Custom domain
+            .block Search engine optimized
 
           .pricing__box__footer
-            %a.footer__btn.btn.btn-default.font-w-7.text-upper{:href => "#"} Try for free
+            %a.btn.btn-default.footer__btn.font-w-7.text-upper{:href => "#"}
+              %i.fa.fa-star.p-r-xs
+              Try for free

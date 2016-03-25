@@ -1,0 +1,13 @@
+#modal_registration.modal.fade{:role => "dialog", :tabindex => "-1"}
+  .modal-dialog.modal-sm
+    .modal-content.no-shadow
+      %form.registration-form{:action => "#"}
+        .modal-header
+          %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+            %span{"aria-hidden" => "true"} &times;
+          .modal-title.text-upper Registration
+        .modal-body
+          %input.form-control#email{:type => "text", placeholder: "Enter your email"}/
+
+        .modal-footer.no-p
+          %button.btn.btn-default.block.w-100.text-upper.p-md.font-w-7{:type => "submit"} Request Access For Free

@@ -14,6 +14,7 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'haml-rails', '~> 0.9'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'byebug'
